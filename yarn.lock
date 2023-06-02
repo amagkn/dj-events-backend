@@ -2329,7 +2329,7 @@
     "@strapi/utils" "4.10.7"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.3.4", "@strapi/strapi@^4.9.0", "@strapi/strapi@4.10.7":
+"@strapi/strapi@^4.0.7", "@strapi/strapi@^4.3.4", "@strapi/strapi@^4.9.0", "@strapi/strapi@4.10.7":
   "integrity" "sha512-bUo+bvLMhVxtc2rXEUrj/mSxZCc40OJvZZCco3G8YPI3SeFPQr28mguTdNKyosD2I7N8EwcKZEZoPnCclhfVvQ=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.10.7.tgz"
   "version" "4.10.7"
@@ -2428,7 +2428,7 @@
     "aria-hidden" "^1.2.3"
     "react-remove-scroll" "^2.5.5"
 
-"@strapi/utils@4.10.7":
+"@strapi/utils@^4.0.7", "@strapi/utils@4.10.7":
   "integrity" "sha512-LyTcpsdcJ6Dq/33eblSU4pN4Yb9VnARA6K5/66cmTTQH34C2bKqkozm7wjK+Y1smK5HA2nvHQiZfpoDtqI0NmA=="
   "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.10.7.tgz"
   "version" "4.10.7"
@@ -9377,6 +9377,13 @@
   "integrity" "sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.3.3.tgz"
   "version" "3.3.3"
+
+"strapi-plugin-slugify@^2.3.2":
+  "integrity" "sha512-gZbZ+jdZYmSjjCdNR5WEhAcF7cokAX3wGlz7+vVgGpsp/ayvZACyWQzyqgfHbbqzjVtPFOi40Clp0OeRtfCHGg=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-slugify/-/strapi-plugin-slugify-2.3.2.tgz"
+  "version" "2.3.2"
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
 
 "stream-chain@^2.2.5", "stream-chain@2.2.5":
   "integrity" "sha512-1TJmBx6aSWqZ4tx7aTpBDXK0/e2hhcNSTV8+CbFJtDjbb+I1mZ8lHit0Grw9GRT+6JbIrrDd8esncgBi8aBXGA=="
